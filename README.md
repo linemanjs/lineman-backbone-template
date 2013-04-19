@@ -6,7 +6,8 @@ This provides the basic configuration needed to get a Backbone app up and runnin
 2. A basic login, logout service bound to sample routes inside `config/server.js`
 3. A router, and 2 views `home_page` and `login_page`, and 1 model `home_page`
 4. A model `change` event binding that shows a message on mouseover
-5. A working, bound login form (username/password don't matter, but are required)
+5. A simple scheme for rendering views into a single dom element, `#view`
+6. A working, bound login form (username/password don't matter, but are required)
 
 ![The Login Page](https://raw.github.com/davemo/lineman-backbone-template/master/doc/login.png)
 ![The Home Page](https://raw.github.com/davemo/lineman-backbone-template/master/doc/home.png)
@@ -19,4 +20,4 @@ This provides the basic configuration needed to get a Backbone app up and runnin
 4. lineman run --force
 5. open your web browser to localhost:8000
 
-Hopefully this helps you get up and running with AngularJS!
+Hopefully this helps you get up and running with BackboneJS!
