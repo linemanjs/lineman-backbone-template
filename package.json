@@ -8,6 +8,6 @@
     "company": "DAVEMO Consulting"
   },
   "dependencies": {
-    "lineman": "~0.4.10"
+    "lineman": "~0.5.2"
   }
 }

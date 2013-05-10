@@ -15,9 +15,8 @@ This provides the basic configuration needed to get a Backbone app up and runnin
 # Instructions
 
 1. git clone this repo
-2. npm install
-3. npm install -g lineman (if you don't already have lineman installed)
-4. lineman run --force
-5. open your web browser to localhost:8000
+2. npm install -g lineman (if you don't already have lineman installed)
+3. lineman run --force
+4. open your web browser to localhost:8000
 
 Hopefully this helps you get up and running with BackboneJS!
