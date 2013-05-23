@@ -1,5 +1,7 @@
 # A Lineman JS Template using Backbone
 
+** Supporting Lineman Version : 0.7.1 **
+
 This provides the basic configuration needed to get a Backbone app up and running with lineman. It includes the following features:
 
 1. Template Precompilation into the `JST` namespace using `grunt-contrib-jst`
@@ -16,7 +18,7 @@ This provides the basic configuration needed to get a Backbone app up and runnin
 
 1. git clone this repo
 2. npm install -g lineman (if you don't already have lineman installed)
-3. lineman run --force
+3. lineman run
 4. open your web browser to localhost:8000
 
 Hopefully this helps you get up and running with BackboneJS!
