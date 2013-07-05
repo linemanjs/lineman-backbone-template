@@ -1,6 +1,6 @@
 # A Lineman JS Template using Backbone
 
-** Supporting Lineman Version : 0.9.0 **
+** Supporting Lineman Version : 0.11.1 **
 
 This provides the basic configuration needed to get a Backbone app up and running with lineman. It includes the following features:
 
