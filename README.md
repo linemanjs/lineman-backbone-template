@@ -10,7 +10,7 @@ This provides the basic configuration needed to get a Backbone app up and runnin
 4. A model `change` event binding that shows a message on mouseover
 5. A simple scheme for rendering views into a single dom element, `#view`
 6. A working, bound login form (username/password don't matter, but are required)
-7. Auto generated [sourcemaps](www.html5rocks.com/en/tutorials/developertools/sourcemaps/) with inlined sources via [grunt-concat-sourcemap](https://github.com/kozy4324/grunt-concat-sourcemap) (you'll need to [enable sourcemaps](http://cl.ly/image/1d0X2z2u1E3b) in Firefox/Chrome to see this)
+7. Auto generated [sourcemaps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) with inlined sources via [grunt-concat-sourcemap](https://github.com/kozy4324/grunt-concat-sourcemap) (you'll need to [enable sourcemaps](http://cl.ly/image/1d0X2z2u1E3b) in Firefox/Chrome to see this)
 
 ![The Login Page](https://raw.github.com/davemo/lineman-backbone-template/master/doc/login.png)
 ![The Home Page](https://raw.github.com/davemo/lineman-backbone-template/master/doc/home.png)
