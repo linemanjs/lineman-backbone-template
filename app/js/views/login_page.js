@@ -21,7 +21,6 @@ window.app.views.LoginPage = Backbone.View.extend({
   },
 
   onLoginSuccess: function(response) {
-    alert(response.message);
     Backbone.history.navigate('home', true);
   },
 

@@ -33,7 +33,6 @@ window.app.views.HomePage = Backbone.View.extend({
   },
 
   onLogoutSuccess: function(response) {
-    alert(response.message);
     Backbone.history.navigate('login', true);
   },
 
