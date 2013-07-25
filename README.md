@@ -12,9 +12,6 @@ It includes the following features:
 6. A working, bound login form (username/password don't matter, but are required)
 7. Auto generated [sourcemaps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) with inlined sources via [grunt-concat-sourcemap](https://github.com/kozy4324/grunt-concat-sourcemap) (you'll need to [enable sourcemaps](http://cl.ly/image/1d0X2z2u1E3b) in Firefox/Chrome to see this)
 
-![The Login Page](https://raw.github.com/davemo/lineman-backbone-template/master/doc/login.png)
-![The Home Page](https://raw.github.com/davemo/lineman-backbone-template/master/doc/home.png)
-
 # Instructions
 
 1. `git clone https://github.com/davemo/lineman-backbone-template.git my-lineman-app`
