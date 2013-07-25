@@ -12,7 +12,7 @@
     "npm": "~>1.2.18"
   },
   "dependencies": {
-    "grunt": "~0.4.1",
+    "lineman" : "~>0.11.6",
     "grunt-concat-sourcemap": "~0.3.0"
   }
 }

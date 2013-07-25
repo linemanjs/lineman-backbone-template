@@ -1,8 +1,8 @@
 # A Lineman JS Template using Backbone
 
-** Supporting Lineman Version : 0.11.1 **
+This is a project template for Backbone JS applications using [Lineman](http://www.linemanjs.com).
 
-This provides the basic configuration needed to get a Backbone app up and running with lineman. It includes the following features:
+It includes the following features:
 
 1. Template Precompilation into the `JST` namespace using `grunt-contrib-jst`
 2. A basic login, logout service bound to sample routes inside `config/server.js`
@@ -17,9 +17,15 @@ This provides the basic configuration needed to get a Backbone app up and runnin
 
 # Instructions
 
-1. git clone this repo
-2. npm install -g lineman (if you don't already have lineman installed)
-3. lineman run
-4. open your web browser to localhost:8000
+1. `git clone https://github.com/davemo/lineman-backbone-template.git my-lineman-app`
+2. `cd my-lineman-app`
+3. `npm install`
+4. `lineman run`
+5. open your web browser to localhost:8000
+
+# Running Tests
+
+1. `lineman run` from 1 terminal window
+2. `lineman spec` from another terminal window
 
 Hopefully this helps you get up and running with BackboneJS!
