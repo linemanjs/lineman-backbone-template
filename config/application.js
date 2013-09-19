@@ -40,7 +40,7 @@ module.exports = require(process.env['LINEMAN_MAIN']).config.extend('application
       sourcesContent: true
     },
     js: {
-      src: ["<banner:meta.banner>", "<%= files.js.vendor %>", "<%= files.template.generated %>", "<%= files.coffee.generated %>", "<%= files.js.app %>"],
+      src: ["<banner:meta.banner>", "<%= files.js.vendor %>", "<%= files.template.generated %>", "<%= files.js.app %>", "<%= files.coffee.generated %>" ],
       dest: "<%= files.js.concatenated %>"
     },
     spec: {
@@ -81,6 +81,12 @@ module.exports = require(process.env['LINEMAN_MAIN']).config.extend('application
     sass: {
       files: ["<%= files.sass.vendor %>", "<%= files.sass.app %>"],
       tasks: ["sass", "concat_sourcemap:css"]
+    },
+    handlebars: {
+      tasks: ["handlebars", "concat_sourcemap:js"]
+    },
+    underscore: {
+      tasks: ["jst", "concat_sourcemap:js"]
     }
   }
 
