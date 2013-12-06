@@ -1,7 +1,7 @@
 {
   "name": "lineman-backbone-template",
   "title": "An HTML/JS/CSS app using Backbone.JS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "author": {
     "name": "David Mosher",
@@ -12,7 +12,7 @@
     "npm": "~>1.2.18"
   },
   "dependencies": {
-    "lineman" : "~>0.11.6",
-    "grunt-concat-sourcemap": "~0.3.0"
+    "lineman" : ">=0.19.3",
+    "lineman-backbone" : ">=0.0.1"
   }
 }
