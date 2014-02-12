@@ -4,15 +4,11 @@
   "version": "0.0.2",
   "private": true,
   "author": {
-    "name": "David Mosher",
-    "company": "DAVEMO Consulting"
+    "name": "John Doe",
+    "company": "ACME, Inc."
   },
-  "engines": {
-    "node": "~>0.10.5",
-    "npm": "~>1.2.18"
-  },
-  "dependencies": {
-    "lineman" : ">=0.19.3",
+  "devDependencies": {
+    "lineman" : ">= 0.24.7",
     "lineman-backbone" : ">=0.0.1"
   }
 }
